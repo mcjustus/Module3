@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="headerMainContent" >
+            <p class = "headerText">Sprout and Grow</p>
+            <img class = "mainLogo" src="images/flowerCipArt.png" alt="Sprout and Grow">
+        </div>        
+        <p class = "headerInfo">Environmentaly Conscientious Gardening Supplier</p>
+        <nav class="flexbox-row">
+            <a class = "headerNav" href="index.html">Home</a>
+            <a class = "headerNav" href="about.html">About</a>
+            <a class = "headerNav" href="events.html">Events</a>
+            <a class = "headerNav" href="products.html">Products</a>
+        </nav>
+    </header>
+    <main>
+            <form class="formContainer" >
+                <label for="fname">First name:</label><br><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label><br><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label><br><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="request">Special Requests:</label><br><br>
+                <textarea id="story" name="request" rows="5" cols="33"></textarea><br><br>
+                <fieldset>
+                    <legend>Options:</legend>              
+                    <div>
+                    <input type="checkbox" id="18" name="18" />
+                    <label for="18">21 Plus</label>
+                    </div>              
+                    <div>
+                        <input type="checkbox" id="kids" name="kids" />
+                        <label for="kids">Bringing Children</label>
+                    </div>
+                    <div>
+                    <input type="checkbox" id="firstevent" name="firstevent" />
+                    <label for="firstevent">First Event With Us</label>
+                    </div>
+                </fieldset><br><br>
+                <fieldset>
+                    <!-- radio button to only select one time -->
+                    <legend>Time:</legend>              
+                    <input type="radio" id="noon" name="time" value="noon">
+                    <label for="noon">12:00PM</label><br>
+                    <input type="radio" id="night" name="time" value="night">
+                    <label for="night">7:00PM</label><br>
+                </fieldset> <br><br>
+                <label for="event">Choose your event!:</label><br><br>
+                <select name="event" id="events">
+                <option value="meet">Green Thumb Meet and Greet</option>
+                <option value="diy">DIY Succulent Pots</option>
+                <option value="paint">Pot Painting</option>            
+                </select><br><br>       
+                <a href="events.html">
+                    <button class="eventButton">Submit</button><br><br>
+                </a>
+                <a href="index.html">
+                    <button class="eventButton">Return Home</button>
+                </a>
+            </form>
+    </main>
+    <footer>
+        <p class = "footerText">@2024 Sprout and Grow NC, All rights reserved.</p>
+        <p class = "footerText">sproutandgrow123@sproutngrow.farm</p>
+        <a href="http://www.facebook.com" target="_blank">Follow on Facebook</a>
+        <a href="https://x.com/?lang=en" target="_blank">Follow on Twitter</a>
+    </footer>
+</body>
+</html>
